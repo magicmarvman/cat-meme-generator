@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Cat meme generator</title>
+</head>
+<body>
+  <form>
+  Select a picture <input type="file" id="user_picture" onchange="update_image()">
+  <p>
+  Meme text: <input type="text" id="user_text" oninput="update_text()" maxlength="70">
+  <p>
+  </form>
+
+
+  <div id="meme_text">&nbsp;</div>
+  <div id="meme_picture"><img src="" height="500" width="600"></div>
+
+  <p>
+</body>
+</html>
